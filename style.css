@@ -22,9 +22,13 @@
     background-repeat: no-repeat , no-repeat;
  background-position: right bottom;
 }
-/* .hero-section{
-    position: absolute;
-  left: 0;
-  bottom: 0;
-  background-image: url(./images/Vector\ 2.png);
-} */
+.text-bg{
+    background-color: #EFEAFF;
+}
+.radius{
+    border-radius: 15px;
+}
+.circle{
+    border-radius: 60px;
+    background-color: #08D3BB;
+}
