@@ -19,7 +19,7 @@
 .bg-back{
     background-color: #5c5c5c10;
     background-image: url(./images/Vector\ 1.png);
-    background-repeat: no-repeat , no-repeat;
+    background-repeat: no-repeat ;
  background-position: right bottom;
 }
 .text-bg{
@@ -29,6 +29,33 @@
     border-radius: 15px;
 }
 .circle{
-    border-radius: 60px;
+   border-radius: 40px;
     background-color: #08D3BB;
+}
+.back-pic{
+    background-image: url(./images/Ellipse\ 3.png);
+       background-repeat: no-repeat ;
+ background-position: right bottom;
+}
+.set-pic{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    padding: 0;
+}
+.gap{
+    margin-left: 100px;
+}
+
+@media screen and(min-width:576px)and (max-width:768px) {
+    body{
+        background-color: black;
+    }
+    .bg-back{
+        background-image: none;
+    }
+    .circle{
+   border-radius: 40px;
+    background-color: #08D3BB;
+}
 }
