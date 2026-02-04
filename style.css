@@ -17,7 +17,7 @@
     border: 1px solid rgba(128, 128, 128, 0.438);
 }
 .bg-back{
-    background-color: #5c5c5c10;
+      background-color: rgba(16, 144, 203, 0.1) !important;
     background-image: url(./images/Vector\ 1.png);
     background-repeat: no-repeat ;
  background-position: right bottom;
@@ -36,6 +36,7 @@
     background-image: url(./images/Ellipse\ 3.png);
        background-repeat: no-repeat ;
  background-position: right bottom;
+ display: block;
 }
 .set-pic{
     position: absolute;
@@ -43,19 +44,65 @@
     left: 0;
     padding: 0;
 }
-.gap{
-    margin-left: 100px;
+.class{
+    background-color: #1090CB;
+    color: white;
+    border: white;
 }
+.white{
+    border: 1px solid #1090CB ;
+    color: #1090CB;
+    background-color: white;
+}
+.top-img{
+  position: absolute;
+  top: 0%;
+  left: 100%;
+}
+.form{
+    padding-left: 30%;
+    padding-right:30% ;
+}
+.pai-chart{
+    width: 5%;
+    position: relative;
+    top: 40px;
+    left: 62%;
+}
+.footer-img{
+width: 5%;
+position:sticky;
+top: 55%;
+left: 20%;
+}
+.bell-img{
+position: absolute;
+left: 60%;
+top: -70px;
 
-@media screen and(min-width:576px)and (max-width:768px) {
+}
+.margin{
+    margin-top: 35px;
+}
+.hidden{
+    overflow: hidden;
+}
+.top{
+    top:-20%;
+    left: 12%;
+}
+@media screen and(max-width:576px){
     body{
         background-color: black;
     }
     .bg-back{
         background-image: none;
     }
-    .circle{
-   border-radius: 40px;
-    background-color: #08D3BB;
+    .campany{
+   display: flex;
+        flex-direction: column;
+        width: 25%;
+        align-items: center;
+        justify-content: center;
 }
 }
