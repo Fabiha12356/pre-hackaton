@@ -91,6 +91,33 @@ top: -70px;
     top:-20%;
     left: 12%;
 }
+
+/* ABOUT.HTMLCODE */
+hr{
+    border: 2px solid #C4C4C4;
+}
+h3{
+    color: var(--primary-color);
+}
+.left-pic{
+ position: absolute;
+    top: 500px;
+    left: 0;
+    padding: 0;
+}
+.bg-green{
+      /* background-color: rgba(16, 144, 203, 0.1) !important; */
+    background-image: url(./images/about-green.png);
+    background-repeat: no-repeat ;
+ background-position: right top;
+}
+.text-body{
+    color: var(--primary-color)!important;
+}
+.about-bg-color{
+    background-color: #e7e7e728;
+}
+/* RESPONSIVENESS */
 @media screen and(max-width:576px){
     body{
         background-color: black;
