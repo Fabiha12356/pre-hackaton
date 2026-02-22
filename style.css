@@ -117,6 +117,42 @@ h3{
 .about-bg-color{
     background-color: #e7e7e728;
 }
+.view{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.box{
+  box-shadow: 3px 3px 2px rgba(128, 128, 128, 0.466);
+}
+
+.janka{
+    width: 100%;
+    height: 29vh;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .container-fluid{
+display: flex;
+flex-direction: column;
+    }
+  .bg-white{
+    background-color:#e7e7e728 !important;
+  }
+  .box{
+  box-shadow: 0 0 0 white;
+}
+}
+
+
+
+
+
 /* RESPONSIVENESS */
 @media screen and(max-width:576px){
     body{
